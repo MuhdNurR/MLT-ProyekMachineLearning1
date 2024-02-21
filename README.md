@@ -55,6 +55,22 @@ https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-predict
 ### Splitting Dataset
 Train test split adalah proses membagi data menjadi data train dan test. Data trainakan digunakan untuk membangun model, sedangkan data test akan digunakan untuk menguji performa model. Pada proyek ini dataset sebesar dibagi menjadi 416 untuk data train dan 105 untuk data uji.
 
+### Proses Mengatasi Outlier
+Outlier adalah data yang memiliki nilai yang sangat jauh dari nilai rata-rata data lainnya. Outlier dapat menyebabkan model menjadi tidak akurat. Berikut beberapa cara untuk mengatasi outlier:
+
+* Membuang outlier: Cara ini dapat dilakukan jika outlier hanya sedikit dan tidak mewakili populasi data.
+* Mengubah nilai outlier: Cara ini dapat dilakukan dengan mengganti nilai outlier dengan nilai rata-rata, median, atau nilai yang terdekat dengan nilai outlier.
+* Menormalisasi data: Cara ini dapat dilakukan dengan mengubah skala data sehingga outlier tidak terlalu berpengaruh pada model.
+* Proses Mengatasi Missing Value
+
+### Proses Mengatasi Missing value
+Missing value adalah data yang hilang. Missing value dapat menyebabkan model menjadi tidak akurat. Berikut beberapa cara untuk mengatasi missing value:
+
+* Menghapus data yang memiliki missing value: Cara ini dapat dilakukan jika data yang memiliki missing value hanya sedikit.
+* Mengisi missing value dengan nilai rata-rata, median, atau nilai yang terdekat: Cara ini dapat dilakukan jika missing value tidak terlalu banyak dan data terdistribusi secara normal.
+* Menggunakan metode imputasi: Ada beberapa metode imputasi yang dapat digunakan untuk mengisi missing value, seperti metode K-Nearest Neighbors (KNN), metode Expectation-Maximization (EM), dan metode Multiple Imputation.
+
+### Algoritma Yang Dipakai
 1. XGBoost
 XGBoost adalah algoritma ensemble learning yang menggabungkan beberapa decision tree. XGBoost dikenal dengan kemampuannya yang handal dalam berbagai masalah klasifikasi dan regresi. XGBoost terkenal dengan performanya yang baik dan sering menjadi pilihan utama dalam berbagai kompetisi machine learning.
 
@@ -77,7 +93,7 @@ SVM adalah algoritma klasifikasi yang bekerja dengan mencari hyperplane yang mem
 Random Forest adalah algoritma ensemble learning yang menggabungkan beberapa decision tree. Random Forest bekerja dengan membangun beberapa decision tree dengan menggunakan subset data yang berbeda. Random Forest dikenal dengan kemampuannya yang handal dalam menangani data dengan noise dan outlier.
 
 8. Logistic Regression
-Logistic Regression adalah algoritma klasifikasi yang digunakan untuk memprediksi probabilitas suatu data属于某个类别。 Logistic Regression adalah algoritma yang sederhana dan mudah dipahami, tetapi performanya bisa kurang optimal dibandingkan dengan algoritma lain pada beberapa kasus.
+Logistic Regression adalah algoritma klasifikasi yang digunakan untuk memprediksi probabilitas suatu data。 Logistic Regression adalah algoritma yang sederhana dan mudah dipahami, tetapi performanya bisa kurang optimal dibandingkan dengan algoritma lain pada beberapa kasus.
 
 # Modeling
 Beberapa jenis algoritma Machine Learning yang akan ditest:
