@@ -26,11 +26,13 @@ Industri kesehatan membutuhkan alat dan teknik yang canggih untuk menganalisis d
 * Meningkatkan kepuasan pasien dengan perawatan yang lebih personal dan tepat sasaran.
 
 ### Problem Statements (pernyataan masalah)
+Bagaimana model pembelajaran mesin dapat membantu memprediksi risiko serangan jantung pada pasien dengan akurasi yang lebih tinggi daripada metode tradisional, mengurangi biaya perawatan kesehatan, dan meningkatkan kualitas hidup pasien?
+
 ### Goals (tujuan)
-* Mengembangkan model pembelajaran mesin yang akurat untuk memprediksi risiko serangan jantung pada pasien.
-* Mengidentifikasi faktor risiko kunci yang berkontribusi terhadap peningkatan risiko serangan jantung.
-* Mensegmentasi pasien ke dalam kelompok risiko yang berbeda untuk mengalokasikan sumber daya perawatan secara lebih efektif.
-* Menyediakan wawasan yang dapat ditindaklanjuti kepada dokter dan penyedia layanan kesehatan lainnya untuk membantu mereka dalam membuat keputusan pengobatan yang lebih baik.
+* Mengembangkan model pembelajaran mesin yang mampu memprediksi risiko serangan jantung dengan akurasi minimal 90%.
+* Mengidentifikasi 5 faktor risiko utama yang berkontribusi terhadap peningkatan risiko serangan jantung.
+* Mensegmentasi pasien ke dalam 3 kelompok risiko (rendah, sedang, tinggi) untuk mengalokasikan sumber daya perawatan secara lebih efektif.
+* Menyediakan wawasan yang dapat ditindaklanjuti kepada dokter dan penyedia layanan kesehatan lainnya untuk membantu mereka dalam membuat keputusan pengobatan yang lebih baik, mengurangi tingkat misdiagnosis hingga 10%.
 
 ## Data Understanding
 ### Sumber Data
@@ -158,5 +160,11 @@ Mean Squared Error (MSE):
 * Model Neural Network, AdaBoost, dan KNN memiliki MSE yang cukup kecil, yaitu di bawah 0.4.
 * Model Naive Bayes, SVM, dan Logistic Regression memiliki MSE yang moderat, yaitu di atas 0.6.
 
-Kesimpulan:
+## Kesimpulan:
 Berdasarkan hasil evaluasi, model XGBoost dan Random Forest menunjukkan performa yang terbaik dengan akurasi dan MSE yang rendah. Model Neural Network, AdaBoost, dan KNN juga menunjukkan performa yang cukup baik. Model Naive Bayes, SVM, dan Logistic Regression memiliki performa yang kurang optimal dibandingkan dengan model lainnya.
+
+## Rekomendasi:
+
+* Anda dapat melakukan tuning parameter pada model-model yang memiliki performa kurang optimal untuk meningkatkan akurasi dan MSE.
+* Anda dapat mencoba algoritma lain yang mungkin lebih cocok untuk data dan masalah yang Anda hadapi.
+* Anda dapat menggunakan ensemble learning untuk menggabungkan beberapa model dan meningkatkan performa model secara keseluruhan.
