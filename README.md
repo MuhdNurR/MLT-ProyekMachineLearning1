@@ -6,7 +6,18 @@ Membuat Model Predictive Analytics. Dalam proyek pertama ini, Anda akan mengimpl
 ![Hearth!](https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2021/1/shutterstock_1576424071.jpg "Hearth")
 
 ### Latar Belakang
-Penyakit jantung merupakan salah satu penyebab kematian tertinggi di dunia. Deteksi dini dan pencegahan risiko serangan jantung sangat penting untuk menyelamatkan jiwa dan meningkatkan kualitas hidup pasien. Data diagnostik yang kaya dapat membantu dokter dalam menilai risiko pasien dan membuat keputusan pengobatan yang tepat.
+Penyakit jantung merupakan salah satu masalah kesehatan utama di dunia. Menurut data terbaru dari World Health Organization (WHO) pada tahun 2021, penyakit jantung iskemik adalah penyebab kematian nomor satu di dunia, merenggut sekitar 9 juta jiwa setiap tahun. Di Indonesia sendiri, penyakit jantung menempati posisi kedua sebagai penyebab kematian terbanyak setelah stroke.
+
+Deteksi dini dan pencegahan risiko serangan jantung sangat penting untuk menyelamatkan jiwa dan meningkatkan kualitas hidup pasien. Data diagnostik yang kaya, seperti data elektrokardiogram (EKG), data tekanan darah, dan riwayat kesehatan pasien, dapat membantu dokter dalam menilai risiko pasien dan membuat keputusan pengobatan yang tepat.
+
+### Peran Pembelajaran Mesin
+
+Pembelajaran mesin (ML) dapat memainkan peran penting dalam meningkatkan praktik medis dalam mendeteksi dan mencegah risiko serangan jantung. Berikut beberapa contohnya:
+
+* Analisis data diagnostik: ML dapat digunakan untuk menganalisis data diagnostik, seperti EKG dan data tekanan darah, untuk mengidentifikasi pasien yang berisiko tinggi terkena serangan jantung.
+* Pengembangan model prediksi: ML dapat digunakan untuk mengembangkan model prediksi yang dapat memperkirakan kemungkinan pasien terkena serangan jantung di masa depan.
+* Personalisasi pengobatan: ML dapat digunakan untuk mempersonalisasi pengobatan untuk pasien dengan penyakit jantung, dengan mempertimbangkan faktor-faktor risiko individu pasien.
+* Pengembangan alat skrining: ML dapat digunakan untuk mengembangkan alat skrining yang dapat membantu mengidentifikasi pasien yang berisiko tinggi terkena penyakit jantung, sehingga mereka dapat menerima pengobatan pencegahan yang tepat.
 
 ## Business Understanding
 Industri kesehatan membutuhkan alat dan teknik yang canggih untuk menganalisis data pasien secara efektif dan akurat. Rumah sakit, klinik, dan penyedia layanan kesehatan lainnya dapat memanfaatkan model pembelajaran mesin untuk memprediksi risiko serangan jantung pada pasien berdasarkan data medis mereka. Ini berpotensi:
