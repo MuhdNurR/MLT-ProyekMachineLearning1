@@ -55,6 +55,30 @@ https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-predict
 ### Splitting Dataset
 Train test split adalah proses membagi data menjadi data train dan test. Data trainakan digunakan untuk membangun model, sedangkan data test akan digunakan untuk menguji performa model. Pada proyek ini dataset sebesar dibagi menjadi 416 untuk data train dan 105 untuk data uji.
 
+1. XGBoost
+XGBoost adalah algoritma ensemble learning yang menggabungkan beberapa decision tree. XGBoost dikenal dengan kemampuannya yang handal dalam berbagai masalah klasifikasi dan regresi. XGBoost terkenal dengan performanya yang baik dan sering menjadi pilihan utama dalam berbagai kompetisi machine learning.
+
+2. Neural Network
+Neural Network adalah algoritma yang terinspirasi dari struktur otak manusia. Neural Network terdiri dari beberapa layer neuron yang saling terhubung. Neural Network mampu belajar dari data dan membuat prediksi dengan cara yang kompleks dan non-linear. Neural Network sangat populer untuk berbagai tugas, termasuk klasifikasi gambar, pengenalan suara, dan pemrosesan bahasa alami.
+
+3. AdaBoost
+AdaBoost adalah algoritma ensemble learning yang menggabungkan beberapa weak learner. AdaBoost bekerja dengan memberikan bobot yang lebih besar kepada weak learner yang berkinerja baik pada data training. AdaBoost dikenal dengan kemampuannya untuk meningkatkan performa model klasifikasi dengan menggabungkan beberapa model yang sederhana.
+
+4. Naive Bayes
+Naive Bayes adalah algoritma klasifikasi yang didasarkan pada teorema Bayes. Naive Bayes mengasumsikan bahwa semua fitur data bersifat independen satu sama lain. Naive Bayes adalah algoritma yang sederhana dan mudah dipahami, tetapi performanya bisa kurang optimal dibandingkan dengan algoritma lain pada beberapa kasus.
+
+5. KNN (K-Nearest Neighbors)
+KNN adalah algoritma klasifikasi yang bekerja dengan mencari K data terdekat dengan data yang ingin diklasifikasikan. KNN kemudian akan mengklasifikasikan data berdasarkan kelas mayoritas dari K data terdekat tersebut. KNN adalah algoritma yang mudah dipahami dan diimplementasikan, tetapi performanya bisa sensitif terhadap nilai K yang dipilih.
+
+6. SVM (Support Vector Machine)
+SVM adalah algoritma klasifikasi yang bekerja dengan mencari hyperplane yang memisahkan dua kelas data dengan jarak yang paling besar. SVM dikenal dengan kemampuannya yang handal dalam menangani data dengan dimensi yang tinggi.
+
+7. Random Forest
+Random Forest adalah algoritma ensemble learning yang menggabungkan beberapa decision tree. Random Forest bekerja dengan membangun beberapa decision tree dengan menggunakan subset data yang berbeda. Random Forest dikenal dengan kemampuannya yang handal dalam menangani data dengan noise dan outlier.
+
+8. Logistic Regression
+Logistic Regression adalah algoritma klasifikasi yang digunakan untuk memprediksi probabilitas suatu data属于某个类别。 Logistic Regression adalah algoritma yang sederhana dan mudah dipahami, tetapi performanya bisa kurang optimal dibandingkan dengan algoritma lain pada beberapa kasus.
+
 # Modeling
 Beberapa jenis algoritma Machine Learning yang akan ditest:
 
