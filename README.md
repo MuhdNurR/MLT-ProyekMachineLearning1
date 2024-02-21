@@ -57,7 +57,7 @@ Jumlah Data : 521 Data
 | target | Risk of heart attack (low/high) | Binary | 0 (low chance), 1 (high chance) | No |
 
 ## Multivariate
-![Multivariate!]([https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2021/1/shutterstock_1576424071.jpg](https://i.ibb.co/K6Q5fWm/Screenshot-2024-02-21-155820.png) "Multivariate")
+![Multivariate!](https://i.ibb.co/K6Q5fWm/Screenshot-2024-02-21-155820.png "Multivariate")
 
 
 ## Data Preparation
