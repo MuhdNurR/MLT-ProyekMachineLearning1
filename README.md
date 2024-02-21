@@ -77,7 +77,7 @@ Mean Squared Error (MSE):
 MSE mengukur rata-rata error kuadrat dari hasil prediksi model. Nilai MSE dihitung dengan menghitung rata-rata dari selisih kuadrat antara hasil aktual dan hasil prediksi. Semakin kecil nilai MSE (mendekati 0), semakin kecil error model dan semakin baik performa model dalam memprediksi nilai yang sebenarnya.
 
 Formula MSE:
-![MSE!]([https://www.gstatic.com/education/formulas2/553212783/en/mean_squared_error.svg](https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.stack.imgur.com%2FMKVCl.png&tbnid=VjHNOZAKlaefpM&vet=12ahUKEwjRkYuJ57uEAxW0hmMGHXZ5AeIQMygaegUIARCwAQ..i&imgrefurl=https%3A%2F%2Fdatascience.stackexchange.com%2Fquestions%2F122066%2Fwhy-cost-function-and-mse-is-called-the-same&docid=owv0m_GbgsglwM&w=428&h=276&q=mse&ved=2ahUKEwjRkYuJ57uEAxW0hmMGHXZ5AeIQMygaegUIARCwAQ) "MSE")
+![MSE!](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40DilaneKombou%2Fpresentation-of-mse-mean-squared-error-a4ee9b6cff49&psig=AOvVaw2Jd77eQnDCy-u2h1g-DoWj&ust=1708583338781000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKiR-Ivnu4QDFQAAAAAdAAAAABAE "MSE")
 
 |	|train|	test|
 |-----|-----|----|
