@@ -35,8 +35,11 @@ Bagaimana model pembelajaran mesin dapat membantu memprediksi risiko serangan ja
 * Menyediakan wawasan yang dapat ditindaklanjuti kepada dokter dan penyedia layanan kesehatan lainnya untuk membantu mereka dalam membuat keputusan pengobatan yang lebih baik, mengurangi tingkat misdiagnosis hingga 10%.
 
 ## Data Understanding
+
 ### Sumber Data
-https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset/data
+Link : https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset/data
+Nama Dataset : heart-attack-analysis-prediction-dataset
+Jumlah Data : 521 Data
 
 ### Variabel
 | Label | Description | Data Type | Values/Ranges | Missing Values Allowed? |
@@ -52,6 +55,10 @@ https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-predict
 | rest_ecg | Resting electrocardiogram results | Categorical | 0 (normal), 1 (abnormality), 2 (hypertrophy) | No |
 | thalach | Maximum heart rate achieved | Continuous | Any positive integer | No |
 | target | Risk of heart attack (low/high) | Binary | 0 (low chance), 1 (high chance) | No |
+
+## Multivariate
+![Multivariate!]([https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2021/1/shutterstock_1576424071.jpg](https://i.ibb.co/K6Q5fWm/Screenshot-2024-02-21-155820.png) "Multivariate")
+
 
 ## Data Preparation
 ### Splitting Dataset
@@ -108,6 +115,44 @@ Beberapa jenis algoritma Machine Learning yang akan ditest:
 * SVM (Support Vector Machine): Algoritma klasifikasi dan regresi yang kuat dengan margin maksimal, mampu bekerja dengan data dimensi tinggi dan non-linear, sering digunakan untuk klasifikasi gambar dan teks.
 * Random Forest: Algoritma ensemble learning yang menggabungkan beberapa decision tree untuk menghasilkan prediksi yang lebih akurat, mampu menangani overfitting dan meningkatkan stabilitas model.
 * Logistic Regression: Algoritma klasifikasi probabilistik untuk memprediksi probabilitas suatu kejadian, sederhana dan mudah dipahami, sering digunakan dalam klasifikasi spam, prediksi risiko kredit, dan klasifikasi sentiment.
+
+1. Logistic Regression:
+* Parameter tidak ada yang disebutkan secara eksplisit dalam kode.
+* Logistic Regression secara umum menggunakan regularisasi L2 dengan parameter C yang mengontrol kekuatan regularisasi. Nilai default untuk C adalah 1.0.
+
+2. Random Forest:
+* random_state=42: Menetapkan seed untuk reproduksibilitas hasil.
+* Parameter lain tidak disebutkan secara eksplisit.
+* Random Forest memiliki banyak parameter yang dapat diubah, seperti jumlah pohon (n_estimators), kedalaman maksimum pohon (max_depth), dan jumlah fitur yang dipertimbangkan setiap pembelahan (max_features).
+
+3. Support Vector Machine (SVM):
+* kernel='linear': Menggunakan kernel linear.
+* random_state=42: Menetapkan seed untuk reproduksibilitas hasil.
+* Parameter lain tidak disebutkan secara eksplisit.
+* SVM dengan kernel linear memiliki parameter utama berupa C untuk regularisasi dan tol untuk toleransi error. Nilai default untuk C adalah 1.0 dan tol adalah 1e-3.
+
+4. K-Nearest Neighbors (KNN):
+* Parameter tidak ada yang disebutkan secara eksplisit.
+* KNN memiliki parameter utama berupa jumlah tetangga terdekat yang digunakan untuk klasifikasi (n_neighbors). Nilai default untuk n_neighbors adalah 5.
+
+5. Naive Bayes:
+* Parameter tidak ada yang disebutkan secara eksplisit.
+* Naive Bayes dengan Gaussian Naive Bayes biasanya tidak memiliki parameter yang bisa diubah.
+
+6. AdaBoost Classifier:
+* random_state=42: Menetapkan seed untuk reproduksibilitas hasil.
+* Parameter lain tidak disebutkan secara eksplisit.
+* AdaBoost menggunakan algoritma pembelajaran lemah lainnya sebagai dasar, dan memiliki parameter seperti jumlah pembelahan (n_estimators) dan learning rate (learning_rate).
+
+7. XGBoost:
+* Parameter tidak ada yang disebutkan secara eksplisit.
+* XGBoost memiliki banyak parameter yang dapat diubah, seperti jumlah pohon (n_estimators), kedalaman maksimum pohon (max_depth), learning rate (learning_rate), dan regularisasi L1 dan L2 (reg_alpha dan reg_lambda).
+
+8. Multi Layer Perceptron (Neural Network):
+* random_state=42: Menetapkan seed untuk reproduksibilitas hasil.
+* max_iter=500: Jumlah iterasi maksimum untuk pelatihan.
+* Parameter lain tidak disebutkan secara eksplisit.
+* Neural Network memiliki banyak parameter yang dapat diubah, seperti jumlah lapisan dan neuron per lapisan, fungsi aktivasi, dan optimisasi.
 
 # Evaluation
 Akurasi:
