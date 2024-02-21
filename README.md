@@ -143,3 +143,20 @@ Formula MSE:
 |Random Forest	|NaN |	NaN|
 |Logistic Regression |	0.620192	|0.590476
 RF	|0.401442|	0.4 | 
+
+### Berdasarkan hasil evaluasi model yang Anda berikan, berikut adalah beberapa poin penting yang dapat dianalisis:
+
+Akurasi:
+* Model dengan akurasi tertinggi adalah Random Forest dengan nilai 94.29%. Ini menunjukkan bahwa model Random Forest mampu memprediksi hasil dengan benar pada 94.29% data uji.
+* Model dengan akurasi terendah adalah Naive Bayes dengan nilai 84.76%. Ini menunjukkan bahwa model Naive Bayes kurang akurat dibandingkan dengan model lainnya.
+* Model XGBoost, AdaBoost, dan KNN memiliki akurasi yang cukup tinggi, yaitu di atas 90%.
+* Model Neural Network, SVM, dan Logistic Regression memiliki akurasi yang moderat, yaitu di atas 88%.
+
+Mean Squared Error (MSE):
+* Model dengan MSE terendah adalah XGBoost dengan nilai 0.175481 pada data train dan 0.219048 pada data test. Ini menunjukkan bahwa model XGBoost memiliki error yang paling kecil dibandingkan dengan model lainnya.
+* Model dengan MSE tertinggi adalah Random Forest dengan nilai NaN pada data train dan 0.4 pada data test. Hal ini perlu ditelusuri lebih lanjut, karena nilai NaN menunjukkan adanya error pada perhitungan MSE.
+* Model Neural Network, AdaBoost, dan KNN memiliki MSE yang cukup kecil, yaitu di bawah 0.4.
+* Model Naive Bayes, SVM, dan Logistic Regression memiliki MSE yang moderat, yaitu di atas 0.6.
+
+Kesimpulan:
+Berdasarkan hasil evaluasi, model XGBoost dan Random Forest menunjukkan performa yang terbaik dengan akurasi dan MSE yang rendah. Model Neural Network, AdaBoost, dan KNN juga menunjukkan performa yang cukup baik. Model Naive Bayes, SVM, dan Logistic Regression memiliki performa yang kurang optimal dibandingkan dengan model lainnya.
