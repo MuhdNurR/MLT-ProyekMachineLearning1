@@ -1,6 +1,6 @@
 # Laporan Proyek Machine Learning - Muhammad Nur Rachman Nidhi Suryono
 
-Membuat Model Predictive Analytics. Dalam proyek pertama ini, Anda akan mengimplementasikan apa yang telah Anda pelajari di seluruh modul untuk membuat model machine learning dan menulis laporan proyek. 
+Membuat Model Predictive Analytics. Dalam proyek pertama ini kita akan mengimplementasikan apa yang telah pelajari di seluruh modul untuk membuat model machine learning dan menulis laporan proyek. 
 
 ## Domain proyek
 ![Hearth!](https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2021/1/shutterstock_1576424071.jpg "Hearth")
@@ -144,7 +144,7 @@ Formula MSE:
 |Logistic Regression |	0.620192	|0.590476
 RF	|0.401442|	0.4 | 
 
-### Berdasarkan hasil evaluasi model yang Anda berikan, berikut adalah beberapa poin penting yang dapat dianalisis:
+### Berdasarkan hasil evaluasi model yang berikan, berikut adalah beberapa poin penting yang dapat dianalisis:
 
 Akurasi:
 * Model dengan akurasi tertinggi adalah Random Forest dengan nilai 94.29%. Ini menunjukkan bahwa model Random Forest mampu memprediksi hasil dengan benar pada 94.29% data uji.
