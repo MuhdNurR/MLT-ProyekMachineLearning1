@@ -19,7 +19,7 @@ Pembelajaran mesin (ML) dapat memainkan peran penting dalam meningkatkan praktik
 * Personalisasi pengobatan: ML dapat digunakan untuk mempersonalisasi pengobatan untuk pasien dengan penyakit jantung, dengan mempertimbangkan faktor-faktor risiko individu pasien.
 * Pengembangan alat skrining: ML dapat digunakan untuk mengembangkan alat skrining yang dapat membantu mengidentifikasi pasien yang berisiko tinggi terkena penyakit jantung, sehingga mereka dapat menerima pengobatan pencegahan yang tepat.
 
-## *Business Understanding*
+## Business Understanding
 Industri kesehatan membutuhkan alat dan teknik yang canggih untuk menganalisis data pasien secara efektif dan akurat. Rumah sakit, klinik, dan penyedia layanan kesehatan lainnya dapat memanfaatkan model pembelajaran mesin untuk memprediksi risiko serangan jantung pada pasien berdasarkan data medis mereka. Ini berpotensi:
 * Mengurangi biaya perawatan kesehatan dengan mengidentifikasi pasien berisiko tinggi dan memberikan intervensi pencegahan dini.
 * Meningkatkan akurasi diagnosis dan keputusan pengobatan.
