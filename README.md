@@ -26,7 +26,8 @@ Industri kesehatan membutuhkan alat dan teknik yang canggih untuk menganalisis d
 * Meningkatkan kepuasan pasien dengan perawatan yang lebih personal dan tepat sasaran.
 
 ### *Problem Statements*
-Bagaimana model pembelajaran mesin dapat membantu memprediksi risiko serangan jantung pada pasien dengan akurasi yang lebih tinggi daripada metode tradisional, mengurangi biaya perawatan kesehatan, dan meningkatkan kualitas hidup pasien?
+* Bagaimana model pembelajaran mesin dapat diimplementasikan untuk memprediksi risiko serangan jantung pada pasien dengan tingkat akurasi yang lebih tinggi dibandingkan metode tradisional?
+* Apakah penerapan model ini dapat efektif mengurangi biaya perawatan kesehatan dan pada akhirnya meningkatkan kualitas hidup pasien?
 
 ### *Goals*
 * Mengembangkan model pembelajaran mesin yang mampu memprediksi risiko serangan jantung dengan akurasi minimal 90%.
@@ -221,6 +222,6 @@ Berdasarkan hasil evaluasi, model *XGBoost* dan *Random Forest* menunjukkan perf
 
 ## Rekomendasi:
 
-* Anda dapat melakukan tuning parameter pada model-model yang memiliki performa kurang optimal untuk meningkatkan akurasi dan MSE.
-* Anda dapat mencoba algoritma lain yang mungkin lebih cocok untuk data dan masalah yang Anda hadapi.
-* Anda dapat menggunakan ensemble learning untuk menggabungkan beberapa model dan meningkatkan performa model secara keseluruhan.
+* Dapat melakukan tuning parameter pada model-model yang memiliki performa kurang optimal untuk meningkatkan akurasi dan MSE.
+* Dapat mencoba algoritma lain yang mungkin lebih cocok untuk data dan masalah yang dihadapi.
+* Dapat menggunakan ensemble learning untuk menggabungkan beberapa model dan meningkatkan performa model secara keseluruhan.
