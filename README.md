@@ -60,14 +60,17 @@ Jumlah Data : 521 Data
 
 ## Multivariate 
 ![Multivariate!](https://i.ibb.co/mRqqb8k/Screenshot-2024-02-21-160618.png "Multivariate")
+
 Dapat diketahui bahwa analisis multivariate tersebut ditemukan bahwa terdapat korelasi antara umur dan penyakit jantung. 
 
 ## Univariate
 ![Univariate!](https://i.ibb.co/9HNtw83/Screenshot-2024-02-21-160405.png "Univariate")
+
 Dapat diketahui bahwa penyebaran data memiliki satu nilai pada chol yang *outliner* sehingga dilakukan penghapusan data.
 
 ## Bivariate
 ![Bivariate](https://i.ibb.co/K6Q5fWm/Screenshot-2024-02-21-155820.png "Bivariate")
+
 Disini kita mengetahui apakah antar variabel memiliki hubungan. 
 
 ## Data Preparation
