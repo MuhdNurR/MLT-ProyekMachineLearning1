@@ -38,7 +38,9 @@ Bagaimana model pembelajaran mesin dapat membantu memprediksi risiko serangan ja
 
 ### Sumber Data
 Link : https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset/data
+
 Nama Dataset : **heart-attack-analysis-prediction-dataset**
+
 Jumlah Data : 521 Data
 
 ### Variabel
@@ -163,8 +165,8 @@ Beberapa jenis algoritma Machine Learning yang akan ditest:
 * Neural Network memiliki banyak parameter yang dapat diubah, seperti jumlah lapisan dan neuron per lapisan, fungsi aktivasi, dan optimisasi.
 
 # Evaluation
-Akurasi:
 
+Akurasi:
 Akurasi mengukur seberapa dekat hasil prediksi model dengan nilai sebenarnya. Nilai akurasi dihitung dengan membagi jumlah prediksi yang benar dengan total data yang diuji (y_test). Semakin tinggi nilai akurasi (mendekati 1), semakin baik performa model dalam memprediksi nilai yang sebenarnya.
 
 |        Model        | Accuracy |
@@ -179,11 +181,9 @@ Akurasi mengukur seberapa dekat hasil prediksi model dengan nilai sebenarnya. Ni
 | *Logistic Regression* |  88.57%  |
 
 *Mean Squared Error (MSE)*:
-
 MSE mengukur rata-rata error kuadrat dari hasil prediksi model. Nilai MSE dihitung dengan menghitung rata-rata dari selisih kuadrat antara hasil aktual dan hasil prediksi. Semakin kecil nilai MSE (mendekati 0), semakin kecil error model dan semakin baik performa model dalam memprediksi nilai yang sebenarnya.
 
 Formula MSE:
-
 
 ![MSE!](https://miro.medium.com/v2/resize:fit:700/1*BtVajQNj29LkVySEWR_4ww.png "MSE")
 
