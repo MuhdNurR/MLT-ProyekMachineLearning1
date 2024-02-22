@@ -26,9 +26,11 @@ Industri kesehatan membutuhkan alat dan teknik yang canggih untuk menganalisis d
 * Meningkatkan kepuasan pasien dengan perawatan yang lebih personal dan tepat sasaran.
 
 ### *Problem Statements*
-* Bagaimana model pembelajaran mesin dapat diimplementasikan untuk memprediksi risiko serangan jantung pada pasien dengan tingkat akurasi yang lebih tinggi dibandingkan metode tradisional?
-* Apakah penerapan model ini dapat efektif mengurangi biaya perawatan kesehatan dan pada akhirnya meningkatkan kualitas hidup pasien?
-
+* Bagaimana tingkat akurasi prediksi risiko serangan jantung menggunakan metode tradisional dapat ditingkatkan untuk lebih efektif mengidentifikasi pasien dengan risiko tinggi?
+* Apakah faktor-faktor risiko serangan jantung yang belum sepenuhnya teridentifikasi dapat diungkapkan untuk mendukung upaya pencegahan yang lebih tepat dan tepat waktu?
+* Bagaimana penyediaan sumber daya perawatan kesehatan dapat dioptimalkan dengan meningkatkan segmentasi pasien berdasarkan risiko, sehingga menghindari alokasi sumber daya yang tidak efektif?
+* Apakah tingkat misdiagnosis oleh dokter dan penyedia layanan kesehatan dapat dikurangi, sehingga meningkatkan keputusan pengobatan dan mengurangi risiko penanganan yang tidak sesuai?
+  
 ### *Goals*
 * Mengembangkan model pembelajaran mesin yang mampu memprediksi risiko serangan jantung dengan akurasi minimal 90%.
 * Mengidentifikasi 5 faktor risiko utama yang berkontribusi terhadap peningkatan risiko serangan jantung.
